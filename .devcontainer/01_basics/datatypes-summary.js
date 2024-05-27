@@ -2,7 +2,7 @@
 
 //7 Types : String, Number, Boolean, Null ( means empty not 0 not even empty string), undefined( means variable is defined but not its value), Symbol (used to make a value unique), BigInt
 
-const score= 100 
+/*const score= 100 
 const scoreValue= 100.4
 const isloggedIn= false
 
@@ -47,3 +47,24 @@ console.log(typeof anotherID);
        Object  =>  object
 
 */
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Non Primitive)
+
+let myYoutubename="hfhsufhksbfjdsh"
+
+let anothername=myYoutubename
+anothername="architaverma"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1={
+    email:"usergoogle24.com",
+    name:"rohan"
+}
+let user2= user1
+
+user2.email="arhi.com"
+console.log(user1.email);
+console.log(user2.email);
